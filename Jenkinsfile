@@ -1,4 +1,4 @@
-    node {
+    node('UBUNTU') {
       stage('init') {
         checkout scm
       }
